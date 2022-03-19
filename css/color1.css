@@ -1,0 +1,205 @@
+@charset "utf-8";
+
+/* common 
+------------------------------------------------------------------------*/
+body {
+	background-color: #fff;
+}
+a {color: #333;}
+a:hover {color: #0faea2; text-decoration: none;}
+.heading2 {
+	border-bottom: 1px solid #0faea2;
+	background-color: #fff;
+	color: #3f3f3f;
+}
+.heading2:before {
+	color: #0faea2;
+}
+.heading2:after {
+	color: #0faea2;
+}
+.heading2 > a {
+	border-bottom: 4px solid #3b9241;
+}
+.heading3 {
+	color: #3f3f3f;
+	border-bottom: 1px solid #0faea2;
+}
+.heading3>a {color: #0faea2;}
+.out-xs {border-bottom: 1px solid #0faea2; padding-bottom: 5px;}
+.btn-primary {
+	background-color: #3b9241;
+	border: 1px solid #3b9241;
+}
+.btn-primary:hover {
+	background-color: rgba(15,174,162, .9);
+	border: 1px solid #0faea2;
+}
+.list-social>.social-facebook>a {
+	background-color: #3b5998;
+}
+.list-social>.social-googleplus>a {
+	background-color: #d44132;
+}
+.list-social>.social-twitter>a {
+	background-color: #40bff5;
+}
+.list-social>.social-youtube>a {
+	background-color: #cd332d;
+}
+
+/* header
+------------------------------------------------------------------------*/
+#header .info-company>dd>* {
+	color: #0faea2;
+}
+#header .search-box fieldset {
+	background-color: #fff;
+	border: 1px solid #DDD;
+}
+#header .search-box form fieldset>input{
+    background: #FFF;
+    color: #DDD;
+}
+#header .search-box form fieldset>input:focus {
+	color: #000;
+}
+#header .search-box form fieldset>button {
+    background-color: #fff;
+}
+
+/* global Nav
+------------------------------------------------------------------------*/
+#globalNav {
+	background-color: #3b9241;
+	border-bottom: 1px solid #CCC;
+	border-top: 1px solid #CCC;
+}
+#globalNav .nav-justified>li>a{
+	border-bottom: 1px solid transparent;
+	margin-top: 0px;
+}
+
+#globalNav .nav-justified>li.cart,
+#globalNav .nav-justified>li.cart>a:hover {background: none;}
+
+#globalNav .nav>li.active {background: #2a475d; border-right: 1px solid #CCC;}
+#globalNav .nav>li.active > a {color:#FF0;}
+#globalNav .nav>.current-menu-item > a,
+#globalNav .nav>.current-menu-parent > a,
+#globalNav .nav>li>a:hover,
+#globalNav .nav>li>a:active,
+#globalNav .nav>li>a:focus,
+#globalNav .nav>li:hover>a {
+	color: #FFF;
+}
+#globalNav .nav>li>.sub-menu>li>a {
+	color: #FFF;
+	font-size: 90%;
+}
+
+
+/* #content
+------------------------------------------------------------------------*/
+.thumbnail-group .properties>li {
+	border-bottom: 1px solid #ddd;
+}
+.thumbnail-group .properties>li>strong {
+	color: #0faea2;
+}
+
+/* complementary 
+------------------------------------------------------------------------*/
+#lNav>li{
+	border-bottom: 1px solid #FFF;
+}
+#lNav>li>a{
+	background-color: rgba(15,174,162, .7);
+	color: #FFF;
+}
+#lNav>li.active>a,
+#lNav>li>a:hover {
+	background-color: #0faea2;
+	color: #FFF;
+}
+#lNav>li:hover {
+	background-color: rgba(15,174,162, .6);
+}
+#lNav>li>.sublNav>li>a {
+	border-bottom: 1px solid #FFF;
+	color: #FFF;
+	display: block;
+}
+#lNav>li>.sublNav>li:last-child>a {
+	border-bottom: none;
+}
+#lNav>li>.sublNav>li>a:hover {
+	background-color: rgba(15,174,162, .6);
+}
+.block-contact .contact-inner {
+	background-color: #FFF;
+	-webkit-box-shadow: 0 2px 4px #ccc;
+       -moz-box-shadow: 0 2px 4px #ccc;
+    		box-shadow: 0 2px 4px #ccc;
+	border-top: 2px solid #0faea2;
+}
+.block-contact .info-company {
+	border-bottom: 1px solid #DDD;
+	border-top: 1px solid #DDD;
+	padding: 10px;
+	margin-bottom: 0;
+}
+.block-contact .info-company .phone-numb>a{
+	color: #0faea2;
+}
+.latest-works>li>a{
+	color: #333;
+}
+.latest-works>li>a>span {
+	background-color: rgba(15,174,162, .8);
+	color: #FFF;
+}
+#complementary .tagcloud a {
+	background: #FFF;
+	border: 1px solid #DDD;
+	color: #444 !important;
+}
+#complementary .tagcloud a:hover {
+	background: #444;
+	border:1px solid #444;
+	color: #FFF !important;
+}
+
+/* footer 
+------------------------------------------------------------------------*/
+.comments {
+	border-top: 1px solid #DDD;
+	background-color: #fff;
+}
+.recent-comments .comment-head span {
+	color: #999;
+}
+
+/* footer 
+------------------------------------------------------------------------*/
+#footer {
+	background: #3b9241;
+	color: #FFF;
+}
+#footer .pageTop>a{
+	background-color: #3b9241;
+	color: #FFF;
+}
+#footer .pageTop>a:hover{
+	color: #FFF;
+}
+#footer .f-info>h4 {color: #FFF;}
+#footer .info-company dd>a {color: #FFF;}
+#footer #fNav a {
+	color: #FFF;
+}
+#footer .info-company dd>a:hover,
+#footer #fNav a:hover {
+	background: none;
+	color: #FFF !important;
+}
